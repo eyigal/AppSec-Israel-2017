@@ -35,16 +35,20 @@ For more details and to confirm your sponsorship, please contact [Or Katz](mailt
 
 ##### Gold Sponsors 
 <div class="sponsor-tier">
-  {% for sponsor in site.data.sponsors.gold %}
-    <span class="sponsor gold-sponsor" vertical-align: text-top>
-      <a href="{{ sponsor.url }}" title="{{ sponsor.name }}" target="_blank">
-        {% if sponsor.image == %}
-          <span>{{ sponsor.name }}</span>
-        {% else %} 
-          <img src="assets/img/Sponsors/{{ sponsor.image }}"> 
-        {% endif %}
-      </a>
-    </span>
+  <table>
+    <tbody>
+      {% for sponsor in site.data.sponsors.gold %}
+        <tr>
+        <span class="sponsor gold-sponsor" vertical-align: text-top>
+          <a href="{{ sponsor.url }}" title="{{ sponsor.name }}" target="_blank">
+            {% if sponsor.image == %}
+              <td><span>{{ sponsor.name }}</span></td>
+            {% else %} 
+              <td><img src="assets/img/Sponsors/{{ sponsor.image }}"></td>
+            {% endif %}
+          </a>
+        </span>
+        </tr>
 {% endfor %}
 </div>
 
