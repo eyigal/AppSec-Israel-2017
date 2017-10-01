@@ -1,7 +1,7 @@
 diamond:
 - name: GE Digital
   url: https://www.ge.com/digital/
-  image: GE_digital.png
+  image: GE_digital_D.png
 
 gold:
 - name : Imperva
