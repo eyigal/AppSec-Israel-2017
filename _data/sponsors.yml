@@ -6,7 +6,7 @@ diamond:
 gold:
 - name : Imperva
   url  : https://www.imperva.com/
-  image: Imperva_G.png
+  image: Imperva.png
 - name : Synopsys
   url  : https://www.synopsys.com/software/pages/default.aspx
   image: synopsys_G.jpg
