@@ -52,7 +52,7 @@ For more details and to confirm your sponsorship, please contact [Or Katz](mailt
 ##### Gold Sponsors 
 <div class="sponsor-tier">
   {% for sponsor in site.data.sponsors.gold %}
-    <span class="sponsor gold-sponsor">
+    <span class="sponsor gold-sponsor" vertical-align: text-top>
       <a href="{{ sponsor.url }}" title="{{ sponsor.name }}" target="_blank">
         {% if sponsor.image == %}
           <span>{{ sponsor.name }}</span>
@@ -68,7 +68,7 @@ For more details and to confirm your sponsorship, please contact [Or Katz](mailt
 ###### Silver Sponsors
 <div class="sponsor-tier">
   {% for sponsor in site.data.sponsors.silver %}
-    <span class="sponsor silver-sponsor">
+    <span class="sponsor silver-sponsor" vertical-align: text-top>
       <a href="{{ sponsor.url }}" title="{{ sponsor.name }}" target="_blank">
         {% if sponsor.image == %}
           <span>{{ sponsor.name }}</span>
@@ -83,7 +83,7 @@ For more details and to confirm your sponsorship, please contact [Or Katz](mailt
 ###### A La Carte Sponsorships
 <div class="sponsor-tier">
   {% for sponsor in site.data.sponsors.alacarte %}
-    <span class="sponsor alacarte-sponsor">
+    <span class="sponsor alacarte-sponsor" vertical-align: text-top>
       <span>{{ sponsor.type }}</span>  <hr />
       <a href="{{ sponsor.url }}" title="{{ sponsor.name }}" target="_blank">
         {% if sponsor.image == %}
