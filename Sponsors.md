@@ -49,7 +49,8 @@ For more details and to confirm your sponsorship, please contact [Or Katz](mailt
           </a>
         </span>
         </tr>
-{% endfor %}
+      {% endfor %}
+  </table>
 </div>
 
 
