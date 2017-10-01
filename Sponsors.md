@@ -50,6 +50,7 @@ For more details and to confirm your sponsorship, please contact [Or Katz](mailt
         </span>
         </tr>
       {% endfor %}
+    </tbody>
   </table>
 </div>
 
