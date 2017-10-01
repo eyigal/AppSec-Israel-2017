@@ -33,22 +33,6 @@ For more details and to confirm your sponsorship, please contact [Or Katz](mailt
 {% endfor %}
 </div>
 
-#### Platinum Sponsors
-<div class="sponsor-tier">
-  {% for sponsor in site.data.sponsors.platinum %}
-    <span class="sponsor platinum-sponsor">
-      <a href="{{ sponsor.url }}" title="{{ sponsor.name }}" target="_blank">
-        {% if sponsor.image == %}
-          <span>{{ sponsor.name }}</span>
-        {% else %} 
-          <img src="assets/img/Sponsors/{{ sponsor.image }}"> 
-        {% endif %}
-      </a>
-    </span>
-{% endfor %}
-</div>
-
-
 ##### Gold Sponsors 
 <div class="sponsor-tier">
   {% for sponsor in site.data.sponsors.gold %}
