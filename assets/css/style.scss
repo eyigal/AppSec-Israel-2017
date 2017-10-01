@@ -294,7 +294,8 @@ footer {
     overflow: hidden;
   
     img {
-      border: none;
+      border-width: 2px;
+      border-color:#000;     
       margin: auto;
       display: block;
       vertical-align: middle;
