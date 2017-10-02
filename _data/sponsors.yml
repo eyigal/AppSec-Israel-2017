@@ -53,13 +53,13 @@ alacarte:
 - name : Checkmarx
   type : Lanyards
   url  : https://www.checkmarx.com/
-  image: Checkmarx_A.png
+  image: Checkmarx_A2.png
 - name : PerimeterX
   type : Speaker Shirts
   url  : https://www.perimeterx.com/
-  image: PerimeterX_A.png
+  image: PerimeterX_A2.png
 - name : Vata
   type : Speaker Shirts
   url  : https://www.vata.one/
-  image: Vata_A.png
+  image: Vata_A2.png
 
